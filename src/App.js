@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg'
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Homeproperties from './Pages/Homeproperties';
 
 function App() {
   return (
     <div >
-    <h1 className='bg-blue-400 text-2xl text-white'>hi</h1>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/property/:id' element={<Homeproperties />} />
+    </Routes>
     </div>
   );
 }
