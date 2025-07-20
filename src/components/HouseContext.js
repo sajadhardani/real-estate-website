@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { housesData } from "../data";
 
 export const HouseContext = createContext()
@@ -11,6 +11,24 @@ const HouseContextProvider = ({ children }) => {
     const [properties,setProperties] = useState([]);
     const [price,setPrice] = useState("قیمت ها (همه)");
     const [loading,setLoading] = useState(false);
+
+    useEffect(() =>{
+      const allcities = houses.map((house)=>{
+        return house.city
+      })
+     const uniqueCities = ['مقاصد (همه)', ...new Set(allcities)];
+     setCities(uniqueCities)
+    },[])
+
+    // badi
+        useEffect(() =>{
+      const allproperties = houses.map((house)=>{
+        return house.type
+      })
+     const uniqueProperties = ['خانه (همه)', ...new Set(allproperties)];
+     setProperties(uniqueProperties)
+    },[])
+
   return( 
    <HouseContext.Provider value={{
     houses,

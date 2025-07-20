@@ -2,8 +2,9 @@ import React from 'react'
 
 import PriceDropDown from './PriceDropDown'
 import PropertyDropDown from './PropertyDropDown';
-import CityDropDown from './CityDropDown';
+
 import {RiSearch2Line} from "react-icons/ri"
+import CityDropDown from './CityDropDown';
 
 const Search = () => {
   return (
