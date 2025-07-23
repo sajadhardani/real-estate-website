@@ -10,8 +10,8 @@ import { BiBed, BiBath, BiArea } from "react-icons/bi";
       <div className="bg-gray-700 rounded-full text-white px-3 py-1 inline-block">
         {house.type}
       </div>
-      <div className="bg-gray-700 rounded-full text-white px-3 py-1 inline-block">
-        {house.type}
+      <div className="bg-red-700 rounded-full text-white px-3 py-1 inline-block">
+        {house.city}
       </div>
       <div className="text-lg font-semibold max-w-[260px] ">
         {" "}

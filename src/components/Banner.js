@@ -13,7 +13,7 @@ const Banner = () => {
       >
         <h1 className="w-[140vh] text-3xl lg:text-[58px] font-semibold leading-none my-8 text-gray-100 ">
           <span className="text-red-500"> ویلای </span>
-          ایده آلت همینجاست !
+          مناسبت همینجاست!
         </h1>
         <p className="max-w-[480px] my-8 mx-4 text-right text-white text-2xl">
           <span className="text-sm">
