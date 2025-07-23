@@ -1,12 +1,13 @@
 import React from 'react'
 import Banner from '../components/Banner'
-import { House, HouseList } from '../components/House'
+import { House} from '../components/House'
+import HouseList from '../components/HouseList'
 
 function Home() {
   return (
     <div className='bg-blue-400'>
        <Banner />
-       <HouseList />
+      <HouseList />
     </div>
   )
 }

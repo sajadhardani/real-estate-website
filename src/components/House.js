@@ -1,6 +1,6 @@
 import React from "react";
 import { BiBed, BiBath, BiArea } from "react-icons/bi";
-export const House = ({ house }) => {
+ const House = ({ house }) => {
   return (
     <div
       className="bg-white shadow-1 p-5 rounded-lg mt-16 mx-auto cursor-pointer
@@ -19,19 +19,19 @@ export const House = ({ house }) => {
       </div>
       <div className="flex gap-x-4 my-4"></div>
       <div className="flex items-center text-gray-600 gap-1">
-        <div className="text-[200px] rounded-full">
+        <div className="text-[20px] rounded-full">
           <BiBed />
         </div>
         <div className="text-base">{house.bedrooms}</div>
       </div>
       <div className="flex items-center text-gray-600 gap-1">
-        <div className="text-[200px] rounded-full">
+        <div className="text-[20px] rounded-full">
           <BiBath />
         </div>
         <div className="text-base">{house.bathrooms}</div>
       </div>
       <div className="flex items-center text-gray-600 gap-1">
-        <div className="text-[200px] rounded-full">
+        <div className="text-[20px] rounded-full">
           <BiArea />
         </div>
         <div className="text-base">{house.surface}</div>
@@ -44,3 +44,4 @@ export const House = ({ house }) => {
     </div>
   );
 };
+export default House;
