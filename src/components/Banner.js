@@ -1,11 +1,11 @@
 import React from "react";
-import Bgimage from "../assets/img/banner.jpg";
+import Bgimage from "../assets/img/banner2.jpg";
 import Search from "./Search";
 const Banner = () => {
   return (
     <div
-      className="h-[90vh] bg-center bg-cover bg-n-repeat"
-      style={{ backgroundImage: `url(${Bgimage})` }}
+      className="h-[90vh] bg-center bg-cover bg-n-repeat "
+      style={{ backgroundImage: `url(${Bgimage})` }} 
     >
       <div
         className="lg:ml-8 xl:ml-[135px] flex flex-col items-center lg:items-start

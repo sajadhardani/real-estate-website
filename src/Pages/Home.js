@@ -5,7 +5,7 @@ import HouseList from '../components/HouseList'
 
 function Home() {
   return (
-    <div className='bg-blue-400'>
+    <div className='bg-grey-300'>
        <Banner />
       <HouseList />
     </div>
