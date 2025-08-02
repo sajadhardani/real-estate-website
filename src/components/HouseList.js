@@ -23,7 +23,7 @@ import { HouseContext } from './HouseContext'; // مسیر درست رو بذا�
 
 
   return (
-    <section className='mb-20'>
+    <section className='mb-20 overflow-x-hidden'>
       <div className='container mx-auto'>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-14'>
           {

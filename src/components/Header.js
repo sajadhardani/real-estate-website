@@ -10,17 +10,17 @@ export default function Header() {
           <span className="text-2xl font-bold text-gray-800 select-none">جابامن</span>
         </Link>
 
-        <nav className="flex items-center gap-6">
+        <nav className="flex justify-start md:justify-center  ">
           <Link
             to="/login"
-            className="px-5 py-3 rounded-lg border border-transparent text-gray-700 hover:text-white hover:bg-red-600 transition duration-300 font-medium"
+            className="px-5 py-3 rounded-lg border border-transparent text-gray-700 hover:text-white hover:bg-red-600 transition duration-300 font-medium whitespace-nowrap  "
           >
             ورود به حساب
           </Link>
 
           <Link
             to="/signup"
-            className="px-5 py-3 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 shadow-md transition duration-300"
+            className="px-5 py-3 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 shadow-md transition duration-300 whitespace-nowrap ml-2"
           >
             ثبت نام
           </Link>
